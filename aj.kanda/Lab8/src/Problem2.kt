@@ -1,7 +1,7 @@
 fun main(args: Array<String>){
 
     for( i in 1..10){
-        val fortune : getFortune(getBirthday())
+        val fortune = getFortune(getBirthday())
         println("\nYour fortune is $fortune")
         if (fortune.contains("Take is easy")) break ;
     }
